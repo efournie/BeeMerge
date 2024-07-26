@@ -5,12 +5,16 @@ This is a simple python script merging frames of a video into a single composite
 ## Prerequisites
 
 The script uses Matplotlib, NumPy and tqdm. They can be installed either with
+
 	pip install matplotlib tqdm numpy
+
 or
+
 	sudo apt install python3-matplotlib python3-numpy python3-tqdm
 
 Video frames can be placed into any directory but they have to be named "frame-XXX.jpg" where XXX is the frame number. 
 They can be generated for example with ffmpeg:
+
 	ffmpeg -i video.mp4 frame-%03d.jpg
 
 ## Usage
