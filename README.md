@@ -37,4 +37,4 @@ They can be generated for example with ffmpeg:
 ## Example
 	python beemerge.py --start_idx 225 --nb_frames 50 --output result.png
 
-[Example result](result.png)
+![Example result](result.png)
